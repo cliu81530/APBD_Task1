@@ -38,5 +38,13 @@ static int getMax(int[] array)
 
 static int getMin(int[] array)
 {
-    return 0;
+    int min = array[0];
+    for (int i = 1; i < array.Length; i++)
+    {
+        if (array[i] < min)
+        {
+            min = array[i];
+        }
+    }
+    return min;
 }
