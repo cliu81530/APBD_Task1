@@ -23,6 +23,7 @@ static double CalculateAverage(int[] array)
 
 static int getMax(int[] array)
 {
+    Console.WriteLine("Calculating max... in feature-max branch");
     int max = array[0];
     for (int i = 1; i < array.Length; i++)
     {
