@@ -5,8 +5,12 @@ double average = CalculateAverage(numbers);
 Console.WriteLine("Max: " + max);
 Console.WriteLine("Average: " + average);
 
-double CalculateAverage(int[] array)
+static double CalculateAverage(int[] array)
 {
+    if(array.Length == 0 || array == null)
+    {
+        throw new ArgumentException("Array cannot be null or empty.");
+    }
     int sum = 0;
     for (int i = 0; i < array.Length; i++)
     {
