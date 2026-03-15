@@ -35,3 +35,8 @@ static int getMax(int[] array)
     }
     return max;
 }
+
+static int getMin(int[] array)
+{
+    return 0;
+}
