@@ -1,5 +1,5 @@
 ﻿// Console.WriteLine("Hello, World!");
-Console.WriteLine("-----statistics project-----");
+Console.WriteLine("-----statistics project-----: main branch");
 int[] numbers = { 1, 2, 3, 4, 5 , 6, 7, 8, 9, 10 };
 int max = getMax(numbers);
 double average = CalculateAverage(numbers);
