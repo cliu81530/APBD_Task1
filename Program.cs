@@ -1,5 +1,9 @@
-﻿Console.WriteLine("Hello, World!");
-
+﻿// Console.WriteLine("Hello, World!");
+int[] numbers = { 1, 2, 3, 4, 5 , 6, 7, 8, 9, 10 };
+int max = getMax(numbers);
+double average = CalculateAverage(numbers);
+Console.WriteLine("Max: " + max);
+Console.WriteLine("Average: " + average);
 
 double CalculateAverage(int[] array)
 {
