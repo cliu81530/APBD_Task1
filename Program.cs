@@ -11,6 +11,7 @@ static double CalculateAverage(int[] array)
     {
         throw new ArgumentException("Array cannot be null or empty.");
     }
+    Console.WriteLine("Calculating average... in new branch");
     int sum = 0;
     for (int i = 0; i < array.Length; i++)
     {
